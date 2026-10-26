@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build artefacts
+build/
+dist/
+*.spec.bak
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime output — never commit generated documents or user data
+output/
+*.log
+
+# Private material: templates and spreadsheets belong to their owner, not to
+# this repository. Keep every real template outside the working tree.
+private/
+templates/
+samples/
+*.docx
+*.doc
+*.xlsx
+*.xlsm
+*.xls
+*.pdf
+
+# ...except the generated, content-free example files used by the test suite.
+!examples/generated/.gitkeep
